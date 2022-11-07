@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nimit</title>
+    <style>
+        body{
+            background-color: whitesmoke;
+            font-family: Arial, sans-serif;
+        }
+        #mainbox{
+            width: 500px;
+            height: 630px;
+            background-color: white;
+            align-items: center;
+            margin: auto;
+            border-radius: 10px;
+            justify-content: center;
+            box-shadow: 0px 0px 10px;
+        }
+        #i{
+            width: 60%;
+            margin: auto;
+        }
+        #ii{
+            text-align: center;
+            line-height: 5px;
+        }
+        #iii{
+            width: 450px;
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+        .t1{
+            width: 200px;
+            height: 30px;
+            border: 1px solid grey;
+            border-radius: 5px;
+        }
+        .t2{
+            width: 410px;
+            height: 30px;
+            border: 1px solid grey;
+            border-radius: 5px;
+            margin-top: 5px;
+            align-items: center;
+            
+        }
+        .t3{
+            width: 132px;
+            height: 30px;
+            border: 1px solid grey;
+            border-radius: 5px;
+            margin-top: 5px;
+            align-items: center;
+        }
+        #radio{
+            display: flex;
+            gap: 40px;
+        }
+        .radio{
+            width: 110px;
+            height: 30px;
+            border: 1px solid grey;
+            border-radius: 5px;
+            align-items: center;
+            display: flex;
+        }
+        #iv{
+            font-size: 12px;
+            width: 450px;
+            background-color: white;
+            border-radius: 10px;
+            padding: 0px 25px;
+            justify-content: center;
+            align-content: center;
+            margin: auto;
+            text-align: center;
+        }
+        .text{
+            width: 420px;
+            padding: 0px 10px;
+            color: grey;
+            text-align: justify;
+        }
+        .button{
+            width: 450px;
+            height: 40px;
+            border: none;
+            background-color: green;
+            color: white;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: large;
+            align-items: center;
+        }
+        #button{
+            margin: auto;
+            align-items: center;
+            align-content: center;
+            text-align: center;
+            display: flex;
+        }
+        .newpage{
+            text-decoration: none;
+            font-size: 18px;
+            text-align: center;
+
+        }
+</style>
+</head>
+<body>
+    <div id="mainbox">
+        <div id="i">
+            <img src="IMG/dF5SId3UHWd.svg" alt="">
+        </div>
+        <hr>
+        <div id="ii">
+            <h2>Create a new account</h2>
+            <p style="color: grey;">It's quick and easy.</p>
+        </div>
+        <div id="iii">
+            <form>
+                <input type="text" placeholder="First Name" class="t1">
+                <input type="text" placeholder="Last Name" class="t1">
+                <br>
+                <input type="text" placeholder="Mobile number or email id." class="t2">
+                <br>
+                <input type="password" placeholder="New Password" class="t2">
+                <br>
+                <p style="font-size: 11px; font-weight: bolder; margin-bottom: 2px; color: grey;">Date Of Birth?</p>
+                <input type="number" min="1" max="31" placeholder="Date" class="t3">
+                <select class="t3">
+                    <option>Month</option>
+                    <option>January</option>
+                    <option>February</option>
+                    <option>March</option>
+                    <option>April</option>
+                    <option>May</option>
+                    <option>June</option>
+                    <option>July</option>
+                    <option>August</option>
+                    <option>September</option>
+                    <option>October</option>
+                    <option>November</option>
+                    <option>December</option>
+                </select>
+                <input type="number" min="1905" max="2022" placeholder="Year" class="t3">
+                <p style="font-size: 11px; font-weight: bolder; margin-bottom: 2px; color: grey;">Gender?</p>
+            <div id="radio">
+                <div class="radio">
+                    <input type="radio" value="male" name="nimit">Male
+                </div>
+                <div class="radio">
+                    <input type="radio" value="male" name="nimit">Female
+                </div>
+                <div class="radio">
+                    <input type="radio" value="male" name="nimit">Custom
+                </div>
+            </div>
+            </form>
+        </div>
+        <div id="iv">
+            <p class="text">People who use our service may have uploaded your contact information to Facebook. <a href="" style="text-decoration: none;">Learn more</a></p>
+            <p class="text">By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS notifications from us and can opt out at any time.</p>
+            <div id="button">
+                <input type="submit" value="Sign Up" class="button" align="center">
+            </div>
+            <br>
+            <a href="Login_page.html" class="newpage">Already have an account?</a>
+        </div>
+    </div>
+</body>
+</html>
